@@ -1,3 +1,5 @@
+[Flds](/flds/README.md)
+
 ## GetFldLinkListWidget
 *виджет для редактирования связей многие-к-многим*
 

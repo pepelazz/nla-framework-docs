@@ -1,3 +1,5 @@
+[Flds](/flds/README.md)
+
 ## GetFldRef
 *поле-ссылка на другой документ*
 
