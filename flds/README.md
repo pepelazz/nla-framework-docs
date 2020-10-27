@@ -10,3 +10,5 @@
 | [GetFldFiles](/flds/getFldFiles.md) | контрол для прикрепления файлов к документу | jsonb |
 | [GetFldImgList](/flds/getFldImgList.md) | контрол прикрепления набора изображений к документу с возможностью предпросмотра | jsonb |
 | [GetFldImg](/flds/getFldImg.md) | контрол прикрепления одного изображения к документу с возможностью предпросмотра | jsonb |
+| [GetFldPhone](/flds/getFldPhone.md) | номер телефона | string |
+| [GetFldEmail](/flds/getFldEmail.md) | email | string |
