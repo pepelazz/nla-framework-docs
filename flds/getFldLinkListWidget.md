@@ -10,6 +10,10 @@
 - `region` (Регионы)
 - `department_region_link` (связь департаментов и регионов)
 
+ВАЖНО: в таблице-связи нужно в раздел Sql добавить параметр IsUniqLink: true
+
+<img src="flds/list_widget_sql_isuniq.jpg" style="max-width: 250px; width: 90%">
+
 Тогда в описании полей в файлах `docs/region/main.go` и `doc/department/main.go` можно использовать такую конструкцию:
 
 ```go

@@ -13,3 +13,5 @@
 | [GetFldImg](/flds/getFldImg.md) | контрол прикрепления одного изображения к документу с возможностью предпросмотра | jsonb |
 | [GetFldPhone](/flds/getFldPhone.md) | номер телефона | string |
 | [GetFldEmail](/flds/getFldEmail.md) | email | string |
+| [GetFldSelectString](/flds/getFldSelectString.md) | выбор из списка | string |
+| [GetFldSelectMultilple](/flds/getFldSelectMultilple.md) | выбор нескольких значений из списка | []text |
