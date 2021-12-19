@@ -31,3 +31,17 @@
 <img src="flds/list_widget_department.png" style="max-width: 500px; width: 90%">
 
 Списком будут отображаться регионы, связанные с данным регионам. С возможностью добавления новых и удаления существующих.
+
+```
+пример с дополнительными полями
+t.GetFldLinkListWidget("user_department_link", [][]int{{2, 1}}, "col-8", map[string]interface{}{
+				"tableDependRoute": "employee",
+				"readonly": "!isAdmin",
+				"flds": "[[" +
+					"{name: 'position', label: 'должность', type: 'string', columnClass: 'col-6'}, " +
+					"{name: 'is_boss', label: 'начальник', type: 'checkbox', columnClass: 'col-6'}" +
+					"]]",
+				"slotOtherFlds": "<q-item-label caption><q-badge v-if='slotProps.item.is_boss' label='начальник' class='q-mr-sm'/>  <span>{{slotProps.item.position}}</span></q-item-label>",
+			})
+```
+
